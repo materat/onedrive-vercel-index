@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/128.png',
 
   // Prefix for KV Storage
-  kvPrefix: process.env.KV_PREFIX || '',
+  kvPrefix: process.env.KV_PREFIX || 'postgres',
 
   // The name of your website. Present alongside your icon.
   title: "Spencer's OneDrive",
